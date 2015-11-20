@@ -5,7 +5,7 @@ android {
     buildToolsVersion '23.0.1'
 
     defaultConfig {
-        applicationId "com.kidane.yosief.template"
+        applicationId "com.kidane.yosief.PushNotificationDemo"
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1
@@ -25,4 +25,5 @@ dependencies {
     compile 'com.android.support:design:23.0.1'
     compile 'com.parse.bolts:bolts-android:1.+'
     compile 'com.parse:parse-android:1.+'
+    compile fileTree(dir: 'libs', include: 'Parse-*.jar')
 }
