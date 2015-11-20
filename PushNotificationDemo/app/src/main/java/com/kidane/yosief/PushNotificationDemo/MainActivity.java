@@ -29,9 +29,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         // parse notification codes
-            Parse.initialize(this, "ZU3Q2hAozxovoFXPS3fsWmD2PiCygAVNXfNshLm6", "8AecjFfNght6QymCOaoVqZkBFSzRz6i4hW7ewIKI");
+           /* Parse.initialize(this, "ZU3Q2hAozxovoFXPS3fsWmD2PiCygAVNXfNshLm6", "8AecjFfNght6QymCOaoVqZkBFSzRz6i4hW7ewIKI");
             ParseInstallation.getCurrentInstallation().saveInBackground();
-
+*/
         // Initializing Toolbar and setting it as the actionbar
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
